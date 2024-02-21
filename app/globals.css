@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #333;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+.card h1{
+    margin-bottom: 20px;
+}
+
+
+ul li{
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li h2{
+    font-size: 18px;
+}
+
+ul li button{
+    font-size: 12px;
+   background-color: red;
+   color: #fff;
+   padding: 5px 5px;
+   border: 0;
+   outline: 0;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+form input{
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+form button{
+    background-color: #fff;
+    padding: 11px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
